@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="general.css">
+        <title>Formulaire</title>
+    </head>
+
+    <body>
+        <header>
+            <nav id='navbar'>
+                <ul id = "menu">
+                    <li><a href="exam1.html">Accueil</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="produits.html">Timbres</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Inscrivez vous</h1> <br>
+            <form action="validation.html">
+                <div>
+                    <label for="lastname">Nom :</label>
+                    <input type="text" class = "input" id="lastname" name="lastname" placeholder="Ex :Chaplin,Macron..." required>
+                </div> <br>
+
+                <div>
+                    <label for="firstname">Prénom :</label>
+                    <input type="text" class = "input" id="firstname" name="firstname" placeholder="Ex :Jean, Michel..." required>
+                </div> <br>
+
+                <div>
+                    <label for="age">Age :</label>
+                    <input type="number" class = "input" min= "0" max="100" required>
+                </div> <br>
+
+                <div>
+                    <label for="">Date de naissance :</label>
+                    <input type="date" class = "input"required>
+                </div> <br>
+
+                <div>
+                    <p>Genre :</p>
+                    <label for="">Femme</label>
+                    <input type="radio" name="gender" id="woman">
+                    <br>
+                    <label for="">Homme</label>
+                    <input type="radio" name="gender" id="man">
+                </div> <br>
+
+                <div>
+                    <p>Lien de votre musique préférée:</p>
+                    <input type="url" class="input" required>
+                </div> <br>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </main>
+        <footer>
+            <div style="margin: 5px;">
+                <p class="foot">Retrouvez nous aussi sur:</p>
+            </div>
+            <div id="logos">
+                <img class = "logos" style="height: 60px;width: 60px;" src="facebook.png">
+                <img class = "logos" style="height: 60px;width: 60px;" src="insta.png">
+                <img class = "logos" style="height: 60px;width: 60px;" src="twitter.png">
+                <img class = "logos" style="height: 60px;width: 60px;" src="youtube.png">
+            </div>
+        </footer>
+        
+    </body>
+</html>

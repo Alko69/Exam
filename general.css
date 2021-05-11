@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    background-color: lightblue;
+    height: 8%;
+}
+
+#navbar{
+    width: 100%;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px ;
+}
+
+nav a{
+    text-decoration: none;
+    border: outset;
+    padding: 8px;
+    border-radius: 25% 10%;
+}
+
+nav a:hover{
+    background-color: salmon;
+}
+
+nav li{
+    list-style: none;
+}
+
+.list{
+    font-size: larger;
+    text-decoration-line: underline;
+    
+}
+
+.text{
+    font-style: italic;
+}
+
+ul{
+    margin: 10px;
+}
+
+.pduit{
+    height: 200px;
+}
+
+.image{
+    text-align: center;
+}
+
+form{
+    margin: 20px;
+}
+
+.input:invalid{
+    border: solid red 2px;
+}
+
+.input:valid{
+    border: solid green 2px;
+}
+
+body{
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+main{
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot{
+    font-weight: bold;
+    font-size: larger;
+}
+#logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.change{
+    height: 100px;
+    width: 150px;
+}
+#change{
+    height: 40%;
+}
+#button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#button2{
+    display: flex;
+    flex-direction: row;
+}
